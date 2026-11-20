@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/orgs/i-Academy/discussions
+    about: Ask how something works, or discuss an idea before it becomes a proposal.
+  - name: Handbooks
+    url: https://docs.academy.i3-innovation.com/en/
+    about: Guides for learners, trainers, organisations, server operators and developers.
+  - name: An account on the hosted service
+    url: https://academy.i3-innovation.com/contact
+    about: For questions about an account, an invoice or an organisation on the hosted service.

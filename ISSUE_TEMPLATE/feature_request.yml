@@ -1,0 +1,34 @@
+name: Proposal
+description: Suggest a change or a new capability.
+labels: ["proposal", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas in the early stage are welcome in **Discussions**. Open an issue once there is a concrete need.
+        Please search the open issues and discussions first: the idea may already be planned, or have been decided against.
+  - type: textarea
+    id: need
+    attributes:
+      label: The need
+      description: Who needs this, in which role, and what they cannot do today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: The proposal
+      description: How it could work, seen from the person using it.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: Workarounds you use today, or other approaches you considered.
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contributing
+      options:
+        - label: I would like to build this myself, after we agree on the approach.
